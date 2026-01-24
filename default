@@ -1,0 +1,4 @@
+//default
+class Car {
+    int speed; // default access
+}
