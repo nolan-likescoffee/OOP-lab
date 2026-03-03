@@ -1,8 +1,11 @@
-//Final modifier
-final void show() {
-    System.out.println("Cannot be overridden");
-	final in MAX_SPEED=120;
-	final class Bike {
-		System.out.println("hello")
-}
+public class Final{
+
+    public static void main(String[] args) {
+
+        final int MAX_VALUE = 100;
+
+        System.out.println(MAX_VALUE);
+
+        // MAX_VALUE = 200; Error: cannot change final variable
+    }
 }
