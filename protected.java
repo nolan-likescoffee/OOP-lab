@@ -1,4 +1,4 @@
-class Protected {
+class protected {
 
     // protected method
     protected void startEngine() {
@@ -13,3 +13,4 @@ class Protected {
         v.startEngine();   // Allowed (same class)
     }
 }
+
